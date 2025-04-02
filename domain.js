@@ -1,17 +1,17 @@
 //Producto , Descuento
 
-function Producto(precio, nombre){
-    this.nombre = nombre
-    this.precio = precio
-}
+// function Producto(precio, nombre){
+//     this.nombre = nombre
+//     this.precio = precio
+// }
 
 // let p1 = 'hola'
 // p1 = 8
 
-let producto = new Producto(10, 'CocaCola')
-producto = 'este es un producto'
+// let producto = new Producto(10, 'CocaCola')
+// producto = 'este es un producto'
 
-console.log(producto)
+// console.log(producto)
 
 class Producto{
 
@@ -45,8 +45,8 @@ class Producto{
     }
 
 }
-const p1 = new Producto('cocacola',10, 1)
-console.log(p1.precioBase)
+// const p1 = new Producto('cocacola',10, 1)
+// console.log(p1.precioBase)
 
 class DescuentoFijo {
     constructor(valor){
